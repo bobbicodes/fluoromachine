@@ -1,0 +1,40 @@
+{
+	"name": "synthwave-x-fluoromachine",
+	"displayName": "Synthwave x Fluoromachine",
+	"description": "Synthwave '84 x Fluoromachine Theme",
+	"version": "0.0.9",
+	"author": "Jeremy Laskar",
+	"publisher": "webrender",
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/webrender/synthwave-vscode-x-fluoromachine"
+	},
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"keywords": [
+		"retro",
+		"80s",
+		"vaporwave",
+		"synthwave",
+		"fluoromachine"
+	],
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Synthwave x Fluoromachine",
+				"uiTheme": "vs-dark",
+				"path": "./themes/synthwave-x-fluoromachine.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "8607133c-9ced-49bd-b817-28004ca94c7c",
+		"publisherId": "c156c0a8-ed41-4b16-becf-322f028f4e68",
+		"publisherDisplayName": "webrender"
+	}
+}
