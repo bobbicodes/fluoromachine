@@ -1,5 +1,20 @@
 # synthwave-x-fluoromachine
-This is a fork of @robbowen's [Synthwave '84 theme](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode), merged with @fullerenedream's [Fluoromachine](https://colorsublime.github.io/themes/FluoroMachine/) theme for VSCode. 
+This is a fork of a fork of @robbowen's [Synthwave '84 theme](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode), merged with @fullerenedream's [Fluoromachine](https://colorsublime.github.io/themes/FluoroMachine/) theme for VSCode. 
+
+I ([porkostomus](https://github.com/porkostomus)) have made a couple additional tweaks to the following bits that I found lacking:
+
+* Debugging squiggles not quite popping out enough:
+
+```
+"editorError.foreground": "#fc199a",
+"editorWarning.foreground": "#fc199a",
+```
+
+* Inadequate selection highlighting :
+
+```
+"editor.selectionBackground": "#ffaa007a",
+```
 
 ![Theme screenshot](https://repository-images.githubusercontent.com/184457193/69dcff00-14d2-11ea-90e1-4bdf6fef80ca)
 
