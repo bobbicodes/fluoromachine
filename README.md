@@ -57,5 +57,5 @@ So I typed exactly:
 ## Notes to keep in mind:
 
 * SPECIAL NOTE: If Code complains about that it is corrupted, simply click “Don't show again”.
-* NOTE: Every time after Code is updated, please re-enable Custom CSS.
+* NOTE: Every time after Code is updated, please repeat step 6 and re-enable Custom CSS.
 * NOTE: Every time you change the configuration, please re-enable Custom CSS.
