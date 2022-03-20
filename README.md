@@ -36,6 +36,16 @@ This is a fork of a fork of @robbowen's [Synthwave '84 theme](https://marketplac
 
 On Linux, the home directory is `/home` instead of `/Users`.
 
+Windows:
+
+```
+{
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/{your username}/.vscode/extensions/webrender.synthwave-x-fluoromachine-0.0.12/synthwave-x-fluoromachine.css"
+    ]
+}
+```
+
 
 5. Quit VS Code and go to terminal so we can restart it with proper Permissions
 6. Type `sudo chown -R $(whoami) PATH TO CODE` where PATH TO CODE is actually the file path, and you actually type `${whoami}` as well. On Linux, the command is `sudo chown -R $(whoami) /usr/share/code`.
